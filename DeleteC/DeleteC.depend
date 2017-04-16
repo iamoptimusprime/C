@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1487767971 source:d:\test\deletec\main.c
+	<stdio.h>
+	<stdlib.h>
+
