@@ -2,7 +2,11 @@
 #include <stdlib.h>
 
 int main()
-{
+{   /*
+    *   'counter' IS RESPONSIBLE FOR ALLOWING EACH PLAYER MAKE THEIR MOVE.
+    *   'flag' HELPS TO CHECK WHETHER THEIR IS AN WINNER OR NOT. IF THERE IS ANY WINNER IT'S VALUE IS SET TO 1.
+    *   'von' HELPS TO CHECK WHETHER ANY MMOVE THAT ANY PLAYER HAS MADE IS VALID OR NOT.
+    */
     int i, j, row, col, turn = 0, counter = 0, x, y, xCord, yCord, flag = 0, von = 0;
     char a[3][3];
 
